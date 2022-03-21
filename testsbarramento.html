@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" name="nazareno" title="test" content="esame nazareno" />
+  <style>
+    /* layout */
+    body {
+      padding: 10px;
+    }
+    section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    div {
+      margin: 10px;
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: 400;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      font-family: sans-serif;
+    }
+
+    button {
+      background-color: #18a0fb;
+      border-radius: 10%;
+      color: white;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: sans-serif;
+    }
+
+    /* hover feature */
+
+    footer:hover {
+      text-decoration: underline blue;
+    }
+
+    h1:hover {
+      text-decoration: underline blue;
+    }
+    picture:hover {
+      text-decoration: underline blue;
+    }
+
+    h4:hover {
+      text-decoration: underline blue;
+    }
+
+    p:hover {
+      text-decoration: underline blue;
+    }
+
+    button:hover {
+      text-decoration: underline red;
+    }
+
+    img:hover {
+      border: solid blue;
+    }
+
+    /*media query */
+
+    @media only screen and (max-width: 1000px) {
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <section>
+      <div>
+        <picture><img src="imgtest/Immagine.png" alt="tondo" /> </picture>
+        <article>
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error unde
+            temporibus amet aliquid voluptatibus veniam similique porro ut
+            laboriosam voluptatum.
+          </p>
+        </article>
+        <a href="http://www.google.it" target="_blank"
+          ><button>learn more</button></a
+        >
+      </div>
+      <div>
+        <picture><img src="imgtest/Immagine.png" alt="tondo" /> </picture>
+        <article>
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+            perspiciatis ipsum eius commodi, reiciendis eaque pariatur corrupti
+            laboriosam suscipit dolore!
+          </p>
+        </article>
+        <a href="http://www.google.it" target="_blank"
+          ><button>learn more</button></a
+        >
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+  </footer>
+</body>
